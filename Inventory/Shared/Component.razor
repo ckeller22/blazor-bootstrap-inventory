@@ -1,0 +1,68 @@
+﻿
+<div class="container">
+    <form>
+        <div class="row no-gutters mb-4">
+            <label class="col-form-label text-right col-3 pr-1" for="itemNumber"> Item #: </label>
+
+            <div class="col-6">
+                <input id="itemNumber" type="text" class="form-control" />
+            </div>
+            <btn id="clearPartNumber" class="btn btn-primary ml-2">Clear part #</btn>
+
+
+
+        </div>
+
+        <div class="row no-gutters mb-4 ">
+            <label class="col-form-label text-right col-3 pr-1" for="userPartNumber"> User Defined Part Number: </label>
+            <div class="col-6">
+                <input id="userPartNumber" type="text" class="form-control" >
+            </div>
+        </div>
+
+        <div class="row no-gutters mb-4">
+            <label class="col-form-label col-2 text-right pr-1" for="activationDate">Activation Date:</label>
+            <div class="col-2">
+                <input id="activationDate" type="text" class="form-control">
+            </div>
+            <label class="col-form-label col-2 text-right pr-1" for="itemNumber">Expiration Date: </label>
+            <div class="col-2">
+                <input id="expirationDate"type="text" class="form-control">
+            </div>
+            <label class="col-form-label col-2 text-right pr-1" for="reorderQuantity">Reorder under QTY:</label>
+            <div class="col-2">
+                <input id="reorderQuantity"type="text" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row no-gutters mb-4">
+            <label class="col-form-label col-2 text-right pr-1" for="minQuantity">Min Quantity:</label>
+            <div class="col-2">
+                <input id="minQuantity" type="text" class="form-control">
+            </div>
+            <label class="col-form-label col-2 text-right pr-1" for="maxQuantity">Min Quantity:</label>
+            <div class="col-2">
+                <input id="maxQuantity"type="text" class="form-control" >
+            </div>
+            <div class="form-check form-check-inline col-3 ml-4 pl-2">
+                <input type="checkbox" class="form-check-input" id="crticalInventoryCheckbox">
+                <label class="form-check-label" for="criticalInventoryCheckbox">Critical inventory item</label>
+            </div>
+        </div>
+
+        <div class="row no-gutters mb-4">
+            <label class="col-form-label col-2 text-right pr-1" for="quantityToInv">Qty to inv: </label>
+            <div class="col-2">
+                <input id="quantityToInv" type="text" class="form-control">
+            </div>
+            <label class="col-form-label col-2 text-right pr-1" for="percentToInv" >Percentage to inv: </label>
+            <div class="col-2">
+                <input id="percentToInv" type="text" class="form-control" >
+            </div>
+        </div>
+    </form>
+</div>
+
+@code {
+
+}
